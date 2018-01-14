@@ -38,8 +38,8 @@ metadata {
 	tiles(scale: 2) {
 		multiAttributeTile(name:"motion", type: "generic", width: 6, height: 4){
 			tileAttribute("device.motion", key: "PRIMARY_CONTROL") {
-				attributeState("active", label:'motion', icon:"st.motion.motion.active", backgroundColor:"#00A0DC")
-				attributeState("inactive", label:'no motion', icon:"st.motion.motion.inactive", backgroundColor:"#CCCCCC")
+				attributeState("active", label:'motion', icon:"st.motion.motion.active", backgroundColor:"#C50000")
+				attributeState("inactive", label:'no motion', icon:"st.motion.motion.inactive", backgroundColor:"#3AAB36")
 			}
 		}
 
